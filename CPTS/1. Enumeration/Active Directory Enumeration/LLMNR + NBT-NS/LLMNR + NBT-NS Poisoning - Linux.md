@@ -7,7 +7,7 @@ NBT-NS port - 137
 
 Primary Tool: **Responder / Inveigh**
 
-**Attack Overview:**
+## Attack Overview:
 1. Host attempts to connect to print server \\print01.domain.local, mistypes the name for \\printer01.domain.local
 2. DNS responds that the host is unknown
 3. The host broadcasts asking if anyone knows the location of printer01.domain.local
