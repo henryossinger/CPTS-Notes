@@ -19,5 +19,5 @@ sudo responder -I <interface name>
 
 - pulls NTLM hashes if they are passed, saved in /usr/share/responders/logs 
 - Hashes can then be cracked with hashcat or John 
-	( hashcat -m <hash_type> <hash_file> <wordlist> )
+	hashcat -m <hash_type> <hash_file> <wordlist>
 		hashcat hash types: https://hashcat.net/wiki/doku.php?id=example_hashes
