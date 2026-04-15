@@ -14,6 +14,9 @@ rpcclient -U "" -N 172.16.5.5
 
 rpcclient $> enumdomusers 
 ```
+rpcclient has the ability to enumerate all users within a domain via their RID's. 
+
+
 ```
 crackmapexec smb 172.16.5.5 --users
 ```
