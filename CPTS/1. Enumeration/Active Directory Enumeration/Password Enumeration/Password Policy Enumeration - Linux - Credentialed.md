@@ -1,9 +1,12 @@
+This should be enumerated before spraying so accounts are not locked out. If it cannot be found, tread lightly with your sprays. 
+
 ##### Policy can be pulled with valid domain credentials via the following: 
 - CrackMapExec / rpcclient
 
 #### Without valid credentials:
 - SMB Null sessions: CrackMap, Enum4Linux, rpcclient
 - LDAP Anonymous bind
+- Kerbrute
 ----
 ## Commands:
 ##### SMB Null Sessions:
@@ -16,6 +19,7 @@ net use \\\host\ipc$ "Password" /u:"user"
 
 ##### Ldap Anonymous bind
 windapsearch.py, ldapsearch, ad-ldapdomaindump.py
+
 
 #### Windows:
 PowerView/SharpView
